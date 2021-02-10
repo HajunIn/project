@@ -1,8 +1,8 @@
 <meta charset="utf-8">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
  <c:set var="path" value="${pageContext.request.contextPath }" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1 maximun-scale=1, mininum=scale=0.3, user-scalable=yes"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -12,7 +12,22 @@
 <link rel="stylesheet"
    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
+<style>
+body{margin:0 auto;
+	width: 98%;
+}
+@media screen (min-width:801px) {
+	div{margin: 0 auto; width: 33%; border:1px solid green; float: left;}
+}
 
+@media screen (max-width:800px) {
+	div{ width: 49%; border:1px solid green; float: left;}
+}
+
+@media screen (max-width:480px) {
+	div{ width: 99%; border:1px solid green; float: left;}
+}
+</style>
 <!DOCTYPE html>
 <html>
 
