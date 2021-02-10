@@ -1,8 +1,9 @@
 <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1 maximun-scale=1, mininum=scale=0.3, user-scalable=yes"/>
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
  <c:set var="path" value="${pageContext.request.contextPath }" />
 
-
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1, mininum=scale=0.3, user-scalable=yes"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -19,16 +20,21 @@
 section{margin:0 auto;
 	width: 98%;
 }
-@media screen (min-width:801px) {
-	div{margin: 0 auto; width: 33%; border:1px solid green; float: left;}
-}
 
-@media screen (max-width:800px) {
-	div{ width: 49%; border:1px solid green; float: left;}
-}
 
-@media screen (max-width:480px) {
-	div{ width: 99%; border:1px solid green; float: left;}
+
+@media  (max-width:480px) {
+	.card{border:none;}
+	.hade1{ width: 99%;  padding-top:130px; float: left; }
+	.hade2{ width: 99%; padding-top:800px; float: left;}
+	
+	.hade4{ width: 99%;  padding-top:500px; float: left;}
+	
+	.hade6 { width: 99%;  padding-top:100px; float: left;}
+	.hade7 { width: 99%; padding-top:700px; float: left;}
+	.hade8 { width: 99%;  padding-top:10px;  padding-right: 70px;}
+	
+
 }
 </style>
 
@@ -54,7 +60,7 @@ Resume</h3>
             <div class="row h-100 d-flex align-items-center" style="display: flex;">
             
            <!--  ///////////////////////////// -->
-              <div   style="height: 300px;  margin-top: -170px;" >
+              <div class="hade1"  style="height: 300px;  margin-top: -170px;" >
 	              <div style="margin-left:20px; font-size: 13px; width: 300px; ">
 	                <p  style="margin-top: -10px;  font-size:20px; font-weight:900; color:#4245cf"> 인하준/Hajun Kim </p><br>
 	                <p  style="margin-top: -10px; font: bold; color: "> 1995.09.23 / 경북 상주 </p>
@@ -66,7 +72,7 @@ Resume</h3>
 	              
 	             <!--  ///////////////////////// -->
 	              <br>
-	                 <div style="margin-left:20px; font-size: 13px; width: 300px; ">
+	                 <div  style="margin-left:20px; font-size: 13px; width: 300px; ">
 	                <p  style="margin-top: -10px; font-size:20px; font-weight:900; color:#4245cf"> Education</p><br>
 	                <p  style="margin-top: -10px; font: bold; color: "> 2017 연암대학교 입학 </p>
 	                <p  style="margin-top: -10px; font: bold; color: "> 2019 연암대학교 졸업 </p>
@@ -74,7 +80,7 @@ Resume</h3>
 	              <div style="border-bottom: solid; width: 100%; color: #e8efeb"></div>
 	               </div>   
 	               <br>
-	                    <div style="margin-left:20px; font-size: 13px; width: 300px; ">
+	                    <div class="hade3" style="margin-left:20px; font-size: 13px; width: 300px; ">
 	                <div style="font-size:20px; font-weight:900; color:#4245cf"">Acquired skills</div><br>
 	                <p  style="margin-top: -10px; font: bold; "> SQL Programming</p>
 	                <p  style="margin-top: -10px; font: bold; color: "> Servlet / JSP, jdbc </p>
@@ -85,7 +91,7 @@ Resume</h3>
               </div>
               
               
-              <div  style="height: 300px;  margin-top: -170px;">
+              <div class="hade4" style="height: 300px;  margin-top: -170px;">
 	                  <div style="margin-left:20px; font-size: 13px; width: 320px; ">
 	                   <div style="font-size:20px; font-weight:900; color:#4245cf"">Other Awards</div><br>
 	                <p  style="margin-top: -10px; font: bold; color: "> KPAA 한국프리져브드경기 대회 장려상 </p>
@@ -100,7 +106,7 @@ Resume</h3>
 	              
 	             <!--  ///////////////////////// -->
 	                   <br>
-	                  <div style="margin-left:20px; font-size: 13px; width: 300px; ">
+	                  <div class="hade5" style="margin-left:20px; font-size: 13px; width: 300px; ">
 	               <div style="font-size:20px; font-weight:900; color:#4245cf"">Other activities</div><br>
 	                <p  style="margin-top: -10px; font: bold; color: "> 원규 외 다수 웨딩스튜디오 공간연출 플로리스트 </p>
 	                <p  style="margin-top: -10px; font: bold; color: "> 2017 꽃박람회 베트남관 공간장식 </p>
@@ -115,7 +121,7 @@ Resume</h3>
               </div>
               
               
-              <div  style="height: 300px;  margin-top: -170px;">
+              <div class="hade7"  style="height: 300px;  margin-top: -170px;">
 	              <div style="margin-left:20px;; font-size: 20px; width: 300px;">
 	               <img style="width: 280px; height: 280px; margin-left: 80px; border-radius: 150px;"
  						src="https://avatars.githubusercontent.com/u/71828303?s=400&u=91f2429020ee96bba401f5dde75eb6ebf32c8b65&v=4">
@@ -124,7 +130,7 @@ Resume</h3>
 	              
 	             <!--  ///////////////////////// -->
 	              
-	              <div style="margin-left:20px;; font-size: 20px; margin-left: 80px; margin-top:20px; width: 350px; text-align: center; ">
+	              <div class="hade8" style="margin-left:20px;; font-size: 20px; margin-left: 80px; margin-top:20px; width: 350px; text-align: center; ">
 	                  <div style="font-size:25px; font-weight:1000; color:#4245cf"">성장하는 개발자 인하준입니다</div><br>
 	                 <span class="fa-ul mb-5 text-muted font-weight-light">
                   <span class="fa-li"><i class="fas fa-check green-text"></i></span>도전정신의 투철함을 기반으로 끝임 없는 성장가능성을 가지고 있습니다, 주어진 일에 최선을 다하는 인재가 되겠습니다. 감사합니다
@@ -161,12 +167,12 @@ Resume</h3>
 
 <div style="height: 50px;"></div>
 
-<div class="container py-5 my-5" style="text-align: center;width: 100%; justify-content: center;">
+<div class="container py-5 my-5 hade6" style="text-align: center;width: 100%; justify-content: center;">
   <div class="p-md-3 mx-md-5 text-center text-lg-left">
-    <h2 class="text-center font-weight-bold mb-4 pb-1">
+    <h2 class=" hade2 text-center font-weight-bold mb-4 pb-1">
 Project / Resume</h2>
     <p class="text-center lead mb-5 pb-2 text-muted"></p>
-    <div class="row">
+    <div class="row hade6">
       <div class="col-lg-4 mb-4">
         <div class="card">
           <div
